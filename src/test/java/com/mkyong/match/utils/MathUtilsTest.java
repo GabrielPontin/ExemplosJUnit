@@ -27,14 +27,15 @@ public class MathUtilsTest {
 	}
 
 	//Declares parameters here
-	@Parameters(name = "Teste {index}: Ã©prasomar({0}+{1})={2}")
+	@Parameters(name = "Teste {index}: éprasomar({0}+{1})={2}")
 	public static Iterable<Object[]> data1() {
 		return Arrays.asList(new Object[][] { 
 			{ 1, 1, 2 }, 
 			{ 2, 2, 4 }, 
 			{ 8, 2, 10 }, 
 			{ 4, 5, 9 }, 
-			{ 10, 10, 21 }			
+			{ 10, 10, 21 },	
+			{ 15, 15, 31 }
 		});
 	}
 

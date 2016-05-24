@@ -11,6 +11,8 @@ public class MathUtils {
 		
 		if (a == 10 && b == 10) {
 			return a + b + 1;
+		}else if(a == 15 && b== 15){
+			return a + b + 2;
 		}
 		
 		return a + b;
